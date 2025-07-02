@@ -1,0 +1,14 @@
+.list{
+    display: flex;
+    gap: 30px;
+}
+.item h1{
+font-size: 24px;
+}
+.item button{
+    margin: 20px;
+    background-color: aqua;
+}
+.item button:hover{
+    background-color: white;
+}
