@@ -40,11 +40,10 @@
 .read-the-docs {
   color: #888;
 } */
-.butt{
+.butt {
   text-align: center;
 
   font-family: Arial, sans-serif;
-
 }
 .button button {
   margin: 15px;
@@ -88,8 +87,44 @@
   border-color: #007bff;
   box-shadow: 0 0 5px #007bff33;
 }
-.forms button:focus{
+.forms button:focus {
   outline: none;
   border-color: #007bff;
   box-shadow: 0 0 5px #007bff33;
+}
+.title {
+  text-align: center;
+  color: #333;
+  margin: 30px;
+  /* padding: 10px; */
+}
+
+.photo-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  gap: 20px;
+}
+
+.photo-item {
+  background-color: #fafafa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: calc(50% - 10px);
+  padding: 10px;
+  text-align: center;
+}
+
+.photo {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.photo-title {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #444;
 }
